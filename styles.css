@@ -1,0 +1,179 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Average+Sans&family=Poppins:wght@300&family=Ubuntu:wght@500&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: auto;
+}
+.navbar{
+    background: black;
+    font-family: ubuntu, cursive;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    height: 120px;
+    font-size: 1.5rem;
+    
+}
+.navbar_container{
+    
+    justify-content: space-between;
+    margin: auto;
+    padding: 2rem;
+    z-index: 1;
+    text-decoration: none;
+
+}
+.logo{
+    background-color: #cb5cab;
+    background-image: linear-gradient(to top, #bc4e9c, #f80759);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: ubuntu, cursive;
+    justify-content: center;
+    margin: 0;
+    text-decoration: none;
+    
+    
+
+}
+.navbar_menu{
+    margin: 2rem;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #cb5cab;
+    background-image: linear-gradient(to top, #bc4e9c, #f80759);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    display: flex;
+}
+
+.navbarlinks{
+    text-decoration: none;
+}
+.my_btn {
+    background-color: #cb5cab;
+    background-image: linear-gradient(to top, #bc4e9c, #f80759);
+    
+    display: flex;
+    border-radius: 5px;
+    
+
+
+}
+
+.login_btn{
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: black;
+    -moz-text-fill-color: black;
+    padding: 2px;
+    margin: 2px 1px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    font-size: 0.5em;
+    
+}
+.my_btn:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+ 
+}
+/* .fa-solid fa-right-to-bracket{
+    padding:10px;
+    margin: 2rem;
+} */
+
+.main_box{
+    box-sizing: border-box;
+    background-color: black;
+    color:#f80759;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 5rem;
+    padding: 5rem;
+    display: grid;
+    grid-template-columns: auto ;
+    border-radius: 10px;
+}
+h2{
+    font-family: ubuntu, cursive;
+    justify-content: center;
+    align-items: center;
+    background-color: #cb5cab;
+    background-image: linear-gradient(to top, #bc4e9c, #f80759);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+.input_box{
+    font-family: ubuntu, cursive;
+    
+    justify-content: center;
+    align-items: center;
+    background-color: #cb5cab;
+    background-image: linear-gradient(to top, #bc4e9c, #f80759);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    text-align: center;
+    
+    overflow: hidden;
+    font-size: 1em;
+    
+
+}
+.your_name{
+    float: left;
+    width: 46%;
+    text-align: center;
+    
+   
+}
+.partner{
+    float: right;
+    width: 46%;
+    text-align: center;
+    
+}
+
+.fa-3x{
+    background-color: #cb5cab;
+    background-image: linear-gradient(to top, #bc4e9c, #f80759);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    color: #f80759;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+}
+#btn{
+    background-color: #cb5cab;
+    background-image: linear-gradient(to top, #bc4e9c, #f80759);
+    color: black;
+    font-family: ubuntu, cursive; 
+    border-radius: 10px;   
+    display: flex;
+
+}
+#btn:hover{
+    transform: scale(1.1);
+}
